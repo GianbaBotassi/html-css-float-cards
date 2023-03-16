@@ -6,42 +6,49 @@
 }
 a{
     text-decoration: none;
+    color: #2cc0d7;
 }
 body{
-    font-size: 18px;
     font-family: 'Varela Round', sans-serif;
 }
 .center-bloc{
-    width: 80%;
+    width: 60%;
     margin: 15px auto;
 }
 
 /* Header rules */
 
 /* Main rules */
-
-/* DEBUG rules */
-/* .row{
-    border: solid 5px black;
-    height: 200px;
-} */
-.col{
-    border: solid orange 3px;
+.row{
+    color: white;
+    border: solid orange 5px;
 }
-.clearfix{
-    display: table;
-    content: '';
-    clear: both;
+.col{
+    float: left;
+    background-color: #0f0e17;
+    width: 33.33%;
 }
 img{
     width: 100px;
     height: 100px;
-    background-color: red;
-    float: left;
+    float: left;   
+    margin-right: 5px;
+}
+.item-descr span, .item-descr a, .item-descr h3{
+    display: block;
+    padding-top: 8px;
 }
 .item-descr{
-    background-color: aquamarine;
-    height: 100px;
-    width: 100px;
     float: left;
+    margin-right: 20px;
 }
+.clearfix:after{
+    display: table;
+    content: '';
+    clear: both;
+}
+/* DEBUG rules */
+
+
+
+
