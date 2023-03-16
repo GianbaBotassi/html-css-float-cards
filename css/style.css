@@ -13,21 +13,29 @@ body{
 }
 .center-bloc{
     width: 60%;
-    margin: 15px auto;
+    margin: 30px auto;
 }
 
 /* Header rules */
-
+header{
+    text-align: center;
+}
+h1{
+    color: #e53170;
+    margin-bottom: 50px;
+}
+header p{
+    margin-bottom: 30px;
+}
 /* Main rules */
 .row{
     color: white;
-    border: solid orange 5px;
-    margin-bottom: 50px;
+    margin: 0 -15px 50px -15px;
 }
 .col{
     float: left;
     width: 33.33%;
-    padding: 0 15;
+    padding: 0 15px;
 
 }
 .card{
