@@ -1,0 +1,47 @@
+/* General rules */
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+body{
+    font-size: 18px;
+    font-family: 'Varela Round', sans-serif;
+}
+.center-bloc{
+    width: 80%;
+    margin: 15px auto;
+}
+
+/* Header rules */
+
+/* Main rules */
+
+/* DEBUG rules */
+/* .row{
+    border: solid 5px black;
+    height: 200px;
+} */
+.col{
+    border: solid orange 3px;
+}
+.clearfix{
+    display: table;
+    content: '';
+    clear: both;
+}
+img{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    float: left;
+}
+.item-descr{
+    background-color: aquamarine;
+    height: 100px;
+    width: 100px;
+    float: left;
+}
