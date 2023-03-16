@@ -9,7 +9,7 @@ a{
     color: #2cc0d7;
 }
 body{
-    font-family: 'Varela Round', sans-serif;
+    font-family: 'Fredoka', sans-serif;
 }
 .center-bloc{
     width: 60%;
@@ -42,6 +42,7 @@ header p{
     background-color: #0f0e17;
     width: 100%;
     display: inline-block;
+    overflow: auto;
 }
 img{
     width: 100px;
